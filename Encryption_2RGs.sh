@@ -9,14 +9,14 @@ VMName='redhatlab'
 loc='westeurope'
 
 # Define the name of the KeyVault and its Resource Group name that will be created.
-keyvault_name = 'myzikey'
-KVRG = 'bounce'
+keyvault_name='myzikey'
+KVRG='bounce'
 
 # Define the name of the Service Principal that will be created.
-SPName = 'spzyky'
+SPName='spzyky'
 
 # Define the name of the KEK
-KVKeyName = 'KEKZyky'
+KVKeyName='KEKZyky'
 
 # Let's check first the status of the VM
 az vm show -g $rgname -n $VMName -d
